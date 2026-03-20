@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"
 
 const connectDB = async() => {
     // await mongoose.connect(process.env.MONGO_URI || "mongodb://Gagan:gagan@cluster0.fkloojo.mongodb.net/?appName=Cluster0", {}).then(() => {
